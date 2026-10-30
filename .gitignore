@@ -19,11 +19,7 @@ env/
 .env
 kaggle.json
 
-# ---------- VS Code (keep shared settings, ignore the rest) ----------
-.vscode/*
-!.vscode/settings.json
-!.vscode/launch.json
-!.vscode/extensions.json
+
 
 # ---------- Jupyter ----------
 .ipynb_checkpoints/
@@ -35,12 +31,6 @@ data/processed/*
 !data/processed/.gitkeep
 
 # ---------- Model weights / checkpoints ----------
-*.pt
-*.pth
-*.ckpt
-*.onnx
-*.safetensors
-*.h5
 *.joblib
 *.pkl
 models/*
@@ -50,7 +40,3 @@ models/*
 outputs/*
 !outputs/.gitkeep
 
-# ---------- OS junk ----------
-Thumbs.db
-Desktop.ini
-.DS_Store
